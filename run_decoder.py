@@ -14,16 +14,17 @@ from watchdog.events import PatternMatchingEventHandler
 
 ##### PATHS #####
 SEP_PATH  = '/'
+ROOT_PATH = os.getcwd()
 #MODELDIR  = '/home/linear/py-kaldi-asr-master/models/kaldi_01_08_2021'
 #MODELDIR  = '/home/linear/py-kaldi-asr-master/models/kaldi_25_03_2021'
 #MODELDIR  = '/home/linear/py-kaldi-asr-master/models/kaldi_audimus'
-MODELDIR  = '/home/linear/py-kaldi-asr-master/models/kaldi_model_20211003'
-IN_PATH   = '/home/linear/py-kaldi-asr-master/data/input'
-PROC_PATH = '/home/linear/py-kaldi-asr-master/data/processing'
-OUT_PATH  = '/home/linear/py-kaldi-asr-master/data/output'
-ERR_PATH  = '/home/linear/py-kaldi-asr-master/data/error'
-SPLIT_PATH = '/home/linear/py-kaldi-asr-master/data/split_info'
-OUT_SPLIT_PATH = '/home/linear/py-kaldi-asr-master/data/split_output'
+MODELDIR  = f'{ROOT_PATH}/models/kaldi_model_20211003'
+IN_PATH   = f'{ROOT_PATH}/data/input'
+PROC_PATH = f'{ROOT_PATH}/data/processing'
+OUT_PATH  = f'{ROOT_PATH}/data/output'
+ERR_PATH  = f'{ROOT_PATH}/data/error'
+SPLIT_PATH = f'{ROOT_PATH}/data/split_info'
+OUT_SPLIT_PATH = f'{ROOT_PATH}/data/split_output'
 
 ##### CONTROL #####
 IN_QUEUE  = None
