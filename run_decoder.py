@@ -14,7 +14,7 @@ from watchdog.events import PatternMatchingEventHandler
 
 ##### PATHS #####
 SEP_PATH  = '/'
-ROOT_PATH = os.getcwd()
+ROOT_PATH = '/opt'
 #MODELDIR  = '/home/linear/py-kaldi-asr-master/models/kaldi_01_08_2021'
 #MODELDIR  = '/home/linear/py-kaldi-asr-master/models/kaldi_25_03_2021'
 #MODELDIR  = '/home/linear/py-kaldi-asr-master/models/kaldi_audimus'
