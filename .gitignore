@@ -16,3 +16,5 @@ data/atlas.pc
 dist
 py_kaldi_asr.egg-info
 *.zip
+*.tar.gz
+models/*
